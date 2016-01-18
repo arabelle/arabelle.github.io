@@ -34,7 +34,7 @@ p {
   }
 }
 a {
-  color: #ffff80;
+  color: #80dfff;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -42,7 +42,11 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #ffff1a;
+  color: #1ac5ff;
+}
+u {
+  text-decoration: none;
+  border-bottom: 2px solid white;
 }
 .light {
   font-weight: 400;
@@ -219,8 +223,7 @@ a:focus {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: url(../img/pink_dawn.JPG) no-repeat center center scroll;
-  background-color: #2C3539;
+  background-color: #435056;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -230,7 +233,7 @@ a:focus {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background-color: #2C3539;
+  background-color: #596673;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -240,8 +243,7 @@ a:focus {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: url(../img/water_sunset.jpg) no-repeat center center scroll;
-  background-color: #2C3539;
+  background-color: #6f8690;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -268,16 +270,16 @@ a:focus {
   border-radius: 0;
 }
 .btn-default {
-  border: 1px solid #ffff80;
-  color: #ffff80;
+  border: 1px solid #80dfff;
+  color: #80dfff;
   background-color: transparent;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #ffff80;
+  border: 1px solid #80dfff;
   outline: none;
   color: black;
-  background-color: #ffff80;
+  background-color: #80dfff;
 }
 ul.banner-social-buttons {
   margin-top: 0;
