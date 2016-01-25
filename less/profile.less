@@ -50,11 +50,6 @@ a {
     }
 }
 
-u {
-    text-decoration: none;
-    border-bottom: 2px solid white;
-}
-
 .light {
     font-weight: 400;
 }
@@ -162,6 +157,20 @@ u {
             }
         }
     }
+}
+
+
+div.a-letter {
+    border-bottom: 3px solid white;
+    display: inline-block;
+    line-height: 0.9em;
+
+}
+
+div.h-letter {
+    border-bottom: 3px solid white;
+    display: inline-block;
+    line-height: 0.9em;
 }
 
 .btn-circle {
@@ -278,7 +287,7 @@ u {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 50px;
+        padding: 50px 0;
     }
 
     .experience-section {
@@ -347,6 +356,77 @@ ul.skills-list {
             }
         }
     }
+}
+
+ul.experience-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 20px;
+    @media(max-width:1199px) {
+        margin-top: 15px;
+    }
+    @media(max-width:767px) {
+        li {
+            display: block;
+            margin-bottom: 20px;
+            padding: 0;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+ul.project-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+    li {
+        display: inline-block;
+        margin: 0 1em 1em 0;
+        position: relative;
+        width: 250px;
+    }
+
+    li:hover span.project-header {
+        opacity: 0.9;
+    }
+}
+
+span.project-header {
+    background: @primary;
+    color: white;
+    cursor: pointer;
+    display: table;
+    position: absolute;
+    width: 250px;
+    height: 120px;
+    font-size: 16px;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+
+    span {
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+    }
+}
+
+div.project-image {
+    position: relative;
+    float: left;
+    width:  250px;
+    height: 190px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
 }
 
 div.column {
