@@ -12,4 +12,28 @@ body {
 h1.name {
     font-family: 'Sacramento', cursive;
     font-size: 64px;
+    display: inline;
+}
+
+nav {
+	float: right;
+	font-size: 20px;
+}
+
+nav a {
+    color: black;
+    padding: 8px 16px;
+}
+
+/* Change the link color on hover */
+nav a:hover {
+    color: #2eb8b8;
+}
+
+.carousel-control {
+	text-shadow: none;
+}
+
+.carousel-inner {
+	padding: 10px;
 }
