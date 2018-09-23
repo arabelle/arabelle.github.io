@@ -18,7 +18,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/profile.js"></script>
+</head>
 
+<body>
     <h1 class="name">arabelle hou</h1>
 
     <!-- Navbar -->
@@ -28,131 +30,155 @@
       <a href="#interests">interests</a>
       <a href="#contact">contact</a>
     </nav>
-</head>
 
-<body>
     <!-- Introduction -->
     <section id="home" class="container-left">
         <div class="intro">
-            <p>Hello, I am a software engineer working at Salesforce @ YVR.</p>
+            <p>Hello! I am a software engineer currently working in Vancouver, BC. <br>
+            I am interested in distributed systems, data pipelines, green buildings, architecture, and art. <br>
+            In my free time I like to play basketball or read.</p>
         </div>
     </section>
 
-    <!-- Experience -->
-    <section id="experience" class="container-left">
-        <h2 class="sub">experience</h2>
-        <ul>
-            <li>University of British Columbia, B.ASc. Computer Engineering</li>
-            <li>Paragon Testing Enterprises, Software Engineer Intern</li>
-            <li>Demonware, Software Engineer Intern</li>
-            <li>Nippon Telegraph and Telephone Media Labs, Research Intern</li>
-            <li>Salesforce, Software Engineer Intern</li>
-            <li>Salesforce, Software Engineer</li>
-        </ul>
-    </section>
+    <section class="indent-1">
+        <!-- Experience -->
+        <section id="experience" class="container">
+            <h1 class="sub">experience</h1>
+            <ul>
+                <li>
+                    <img class="company-img" src="img/ubclogo.gif">
+                    <p class="company">University of British Columbia</p>
+                    <span class="work-time">September 2013 - May 2018</span>
+                    <p><b>B.ASc. Computer Engineering</b></p>
+                </li>
+                <li>
+                    <img class="company-img" src="img/paragonlogo.png">
+                    <p class="company">Paragon Testing Enterprises</p>
+                    <span class="work-time">May 2015 - August 2015</span>
+                    <p><b>Software Engineer Intern</b></p>
+                </li>
+                <li>
+                    <img class="company-img" src="img/dwlogo.jpg">
+                    <p class="company">Demonware</p>
+                    <span class="work-time">January 2016 - August 2016</span>
+                    <p><b>Software Engineer Intern</b> | Data Pipeline Team</p>
+                </li>
+                <li>
+                    <img class="company-img" src="img/nttlogo.png">
+                    <p class="company">Nippon Telegraph and Telephone</p>
+                    <span class="work-time">September 2016 - December 2016</span>
+                    <p><b>Research Intern</b> | Media Intelligence Labs</p>
+                </li>
+                <li>
+                    <img class="company-img" src="img/salesforce.png">
+                    <p class="company">Salesforce</p>
+                    <span class="work-time">May 2017 - August 2017</span>
+                    <p><b>Software Engineer Intern</b> | Data Broker Team</p>
+                </li>
+                <li>
+                    <img class="company-img" src="img/salesforce.png">
+                    <p class="company">Salesforce</p>
+                    <span class="work-time">July 2018 - present</span>
+                    <p><b>Software Engineer</b> | Data Broker Team</p>
+                </li>
+            </ul>
+        </section>
 
-    <!-- Interests -->
-    <section id="interests" class="container-left">
-        <h2 class="sub">interests</h2>
-
-        <h4>playlists</h4>
-        <div class="spotify-embed">
-            <iframe src="https://open.spotify.com/embed/user/arabelletum/playlist/4NsSdRrTY8WzHOyGIf9kPl" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-            <iframe src="https://open.spotify.com/embed/user/arabelletum/playlist/6Zkj60q3if8ZIRxkvOf6V2" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-           <iframe src="https://open.spotify.com/embed/user/arabelletum/playlist/4XmZPLSVfOUyQiwT1PgjIb" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-        </div>
-
-        <h4>views</h4>
-        <div>
-            <!-- embed Instagram -->
-        </div>
-
-        <h4>quotes</h4>
-        <div class="container"> 
-          <div id="quote-carousel" class="carousel slide">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
-              <li data-target="#quote-carousel" data-slide-to="1"></li>
-              <li data-target="#quote-carousel" data-slide-to="2"></li>
-              <li data-target="#quote-carousel" data-slide-to="3"></li>
-              <li data-target="#quote-carousel" data-slide-to="4"></li>
-              <li data-target="#quote-carousel" data-slide-to="5"></li>
-              <li data-target="#quote-carousel" data-slide-to="6"></li>
-              <li data-target="#quote-carousel" data-slide-to="7"></li>
-              <li data-target="#quote-carousel" data-slide-to="8"></li>
-              <li data-target="#quote-carousel" data-slide-to="9"></li>
-              <li data-target="#quote-carousel" data-slide-to="10"></li>
-              <li data-target="#quote-carousel" data-slide-to="11"></li>
-            </ol>
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-              <div class="item active">
-                <p class="quote">Whose sorrows stir one's sense of beauty, and whose wounds are like red roses.</p>
-                <p class="author">Dorian Gray</p>
-              </div>
-
-              <div class="item">
-                <p class="quote">So much depends on one aged man.</p>
-                <p class="author">Dune</p>
-              </div>
-            
-              <div class="item">
-                <p class="quote">How beautiful it is to do nothing, and then to rest afterward.</p>
-                <p class="author">Spanish proverb</p>
-              </div>
-              <div class="item">
-                <p class="quote">A child may not know how to feed itself, or what to eat, yet it knows hunger.</p>
-                <p class="author">Flowers for Algernon</p>
-              </div>
-              <div class="item">
-                <p class="quote">Everything that occurs out if necessity, everything expected, repeated day in and day or, is mute. Only chance can speak to us.</p>
-                <p class="author">The Unbearable Lightness of Being</p>
-              </div>
-              <div class="item">
-                <p class="quote">It is the voice of he emptiness below is which tempts and lures us, it is the desire to fall, against which, terrified, we defend ourselves.</p>
-                <p class="author">The Unbearable Lightness of Being</p>
-              </div>
-              <div class="item">
-                <p class="quote">The river flowed from century to century, and human affairs play themselves out on its banks. Play themselves out to be forgotten the next day, while the river flows on.</p>
-                <p class="author">The Unbearable Lightness of Being</p>
-              </div>
-              <div class="item">
-                <p class="quote">Easy choices, hard life. Hard choices, easy life.</p>
-                <p class="author">Jerzy Gregorek</p>
-              </div>
-              <div class="item">
-                <p class="quote">There are no short cuts to quality.</p>
-                <p class="author">Toshiyuki Tani</p>
-              </div>
-              <div class="item">
-                <p class="quote">One tribe dyed a whole valley floor, blackening it to increase convection and thereby the possibility of rainfall, and built high structures to pierce the belly of a cloud.</p>
-                <p class="author">The English Patient</p>
-              </div>
-              <div class="item">
-                <p class="quote">Tenderness towards the unknown and anonymous, which was a tenderness to the self.</p>
-                <p class="author">The English Patient</p>
-              </div>
+        <!-- Interests -->
+        <section id="listening" class="container">
+            <h1 class="sub">playlists</h1>
+            <div class="spotify-embed">
+                <iframe src="https://open.spotify.com/embed/user/arabelletum/playlist/4NsSdRrTY8WzHOyGIf9kPl" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
             </div>
+        </section>
 
-            <!-- Left and right controls -->
-            <a class="left carousel-control" href="#quote-carousel" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#quote-carousel" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-        </div>
-    </section>
+        <section id="quotes" class="container">
+            <h1 class="sub">quotes</h1>
+              <div id="quote-carousel" class="carousel slide">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#quote-carousel" data-slide-to="1"></li>
+                  <li data-target="#quote-carousel" data-slide-to="2"></li>
+                  <li data-target="#quote-carousel" data-slide-to="3"></li>
+                  <li data-target="#quote-carousel" data-slide-to="4"></li>
+                  <li data-target="#quote-carousel" data-slide-to="5"></li>
+                  <li data-target="#quote-carousel" data-slide-to="6"></li>
+                  <li data-target="#quote-carousel" data-slide-to="7"></li>
+                  <li data-target="#quote-carousel" data-slide-to="8"></li>
+                  <li data-target="#quote-carousel" data-slide-to="9"></li>
+                  <li data-target="#quote-carousel" data-slide-to="10"></li>
+                  <li data-target="#quote-carousel" data-slide-to="11"></li>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <p class="quote">Whose sorrows stir one's sense of beauty, and whose wounds are like red roses.</p>
+                    <p class="author">Dorian Gray</p>
+                  </div>
+
+                  <div class="item">
+                    <p class="quote">So much depends on one aged man.</p>
+                    <p class="author">Dune</p>
+                  </div>
+                
+                  <div class="item">
+                    <p class="quote">How beautiful it is to do nothing, and then to rest afterward.</p>
+                    <p class="author">Spanish proverb</p>
+                  </div>
+                  <div class="item">
+                    <p class="quote">A child may not know how to feed itself, or what to eat, yet it knows hunger.</p>
+                    <p class="author">Flowers for Algernon</p>
+                  </div>
+                  <div class="item">
+                    <p class="quote">Everything that occurs out if necessity, everything expected, repeated day in and day or, is mute. Only chance can speak to us.</p>
+                    <p class="author">The Unbearable Lightness of Being</p>
+                  </div>
+                  <div class="item">
+                    <p class="quote">It is the voice of he emptiness below is which tempts and lures us, it is the desire to fall, against which, terrified, we defend ourselves.</p>
+                    <p class="author">The Unbearable Lightness of Being</p>
+                  </div>
+                  <div class="item">
+                    <p class="quote">The river flowed from century to century, and human affairs play themselves out on its banks. Play themselves out to be forgotten the next day, while the river flows on.</p>
+                    <p class="author">The Unbearable Lightness of Being</p>
+                  </div>
+                  <div class="item">
+                    <p class="quote">Easy choices, hard life. Hard choices, easy life.</p>
+                    <p class="author">Jerzy Gregorek</p>
+                  </div>
+                  <div class="item">
+                    <p class="quote">There are no short cuts to quality.</p>
+                    <p class="author">Toshiyuki Tani</p>
+                  </div>
+                  <div class="item">
+                    <p class="quote">One tribe dyed a whole valley floor, blackening it to increase convection and thereby the possibility of rainfall, and built high structures to pierce the belly of a cloud.</p>
+                    <p class="author">The English Patient</p>
+                  </div>
+                  <div class="item">
+                    <p class="quote">Tenderness towards the unknown and anonymous, which was a tenderness to the self.</p>
+                    <p class="author">The English Patient</p>
+                  </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#quote-carousel" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#quote-carousel" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+    </section>  
+
 
     <!-- Contact -->
     <section id="contact" class="container contact-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>contact me</h2>
+                <h1>contact me</h1>
                 <ul class="list-inline">
                     <li>
                         <a href="https://github.com/arabelle" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i></a>
@@ -161,7 +187,7 @@
                         <a href="https://ca.linkedin.com/in/arabelleh" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i></a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/arabellefood/" class="btn btn-default btn-lg"><i class="fa fa-instagram fa-fw"></i></a>
+                        <a href="https://www.instagram.com/arabellehou/" class="btn btn-default btn-lg"><i class="fa fa-instagram fa-fw"></i></a>
                     </li>
                     <li>
                         <a href="mailto:arabelle310@alumni.ubc.ca" class="btn btn-default btn-lg"><i class="fa fa-envelope-o fa-fw"></i></a>
@@ -180,6 +206,16 @@
             <p>&copy; Arabelle Hou 2018</p>
         </div>
     </footer>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126271021-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-126271021-1');
+    </script>
 </body>
 
 </html>

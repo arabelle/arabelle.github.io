@@ -11,8 +11,20 @@ body {
 
 h1.name {
     font-family: 'Sacramento', cursive;
-    font-size: 64px;
+    font-size: 84px;
     display: inline;
+}
+
+h1.sub {
+	margin-bottom: 20px;
+}
+
+p {
+	font-size:18px;
+}
+
+a {
+	color: black;
 }
 
 nav {
@@ -26,8 +38,40 @@ nav a {
 }
 
 /* Change the link color on hover */
-nav a:hover {
+a:hover {
     color: #2eb8b8;
+}
+
+ul {
+	padding: 0;
+	list-style-type: none;
+}
+
+li {
+	margin-bottom:20px;
+}
+
+li p {
+	font-size: 14px;
+}
+
+.company {
+	font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    margin: 0;
+}
+
+.company-img {
+	height:30px;
+}
+
+.work-time {
+    font-size: 13px;
+    margin-left: 1px;
+    background-color: #c1f0f0;
+    border-radius: 7px;
+    padding: 3px;
 }
 
 .carousel-control {
@@ -36,4 +80,13 @@ nav a:hover {
 
 .carousel-inner {
 	padding: 10px;
+}
+
+.indent-1 {
+	width: 100%;
+}
+        
+.indent-1 section {
+	width: 33%; 
+	float: left;
 }
