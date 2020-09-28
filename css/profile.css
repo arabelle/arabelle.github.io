@@ -1,26 +1,73 @@
 @import variables.css;
 
 * {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Source Serif Pro', serif;
 }
 
 body {
-    background: #fff6f6;
     padding: 24px;
+    min-height: 100vh;
+    min-width: 100%;
+    overflow-x: hidden;
+}
+
+body#home {
+    background-image: url("../img/lake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 20% 60%;
+}
+
+body#experience {
+    background-image: url("../img/lake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 20% 60%;
+}
+
+body#about {
+    background-image: url("../img/lake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 20% 60%;
+
+}
+
+div#experience {
+    background: rgba(204, 204, 204, 0.5);
+    border-radius: 25px;
+    padding: 12px;
+    margin-top: 12px;
+    width: 40%;
+}
+
+div#about {
+    background: rgba(204, 204, 204, 0.7);
+    border-radius: 25px;
+    margin-top: 12px;
+    padding: 12px;
+    width: 50%;
+}
+
+footer {
+    position: absolute;
+    min-width: 100%;
+    bottom: 0;
+    text-align: center;
 }
 
 h1.name {
-    font-family: 'Sacramento', cursive;
+    font-family: 'Crimson Text', serif;
     font-size: 84px;
     display: inline;
 }
 
 h1.sub {
-	margin-bottom: 20px;
+    font-family: 'Crimson Text', serif;
 }
 
 p {
-	font-size:18px;
+	font-size:24px;
 }
 
 a {
@@ -39,7 +86,7 @@ nav a {
 
 /* Change the link color on hover */
 a:hover {
-    color: #2eb8b8;
+    color: #5e858f;
 }
 
 ul {
@@ -47,16 +94,29 @@ ul {
 	list-style-type: none;
 }
 
+ul#hobbies {
+    padding: 20px;
+    list-style-type: circle;
+}
+
+li#experience {
+	margin-bottom: 20px;
+}
+
 li {
-	margin-bottom:20px;
+    font-size: 20px;
 }
 
 li p {
-	font-size: 14px;
+	font-size: 18px;
+}
+
+.fa {
+    font-size: 24px;
 }
 
 .company {
-	font-size: 16px;
+	font-size: 24px;
     font-weight: 500;
     display: inline-block;
     margin: 0;
@@ -66,27 +126,10 @@ li p {
 	height:30px;
 }
 
-.work-time {
-    font-size: 13px;
+.work-length {
+    font-size: 18px;
+    background: rgba(204, 204, 204, 0.5);
     margin-left: 1px;
-    background-color: #c1f0f0;
     border-radius: 7px;
     padding: 3px;
-}
-
-.carousel-control {
-	text-shadow: none;
-}
-
-.carousel-inner {
-	padding: 10px;
-}
-
-.indent-1 {
-	width: 100%;
-}
-        
-.indent-1 section {
-	width: 33%; 
-	float: left;
 }
