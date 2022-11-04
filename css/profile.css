@@ -133,3 +133,14 @@ li p {
     border-radius: 7px;
     padding: 3px;
 }
+
+.gr_grid_container {
+  width: 50%;
+}
+
+.gr_grid_book_container {
+  /* customize book cover container div here */
+  float: left;
+  padding: 0px 0px;
+  overflow: hidden;
+}
